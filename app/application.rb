@@ -5,7 +5,11 @@ class Application
     
     time = Time.now
     
-    resp.write "Hello, World"
+    if time.hour <= ""
+      resp.write "Hello, World"
+    elsif time.hour >=
+      resp.write ""
+    
     resp.finish
   end
  
