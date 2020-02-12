@@ -6,7 +6,7 @@ class Application
     time = Time.now
     
     if time.hour <= ""
-      resp.write "Hello, World"
+      resp.write "Good Morning!"
     elsif time.hour >=
       resp.write ""
     
