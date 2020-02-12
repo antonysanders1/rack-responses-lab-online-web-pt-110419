@@ -5,9 +5,9 @@ class Application
     
     time = Time.now
   
-    if time.hour <= ""
+    if time.hour <= "11"
       resp.write "Good Morning!"
-    elsif time.hour >=
+    elsif time.hour >= "12"
       resp.write "Good Afternoon!"
     end
     resp.finish
